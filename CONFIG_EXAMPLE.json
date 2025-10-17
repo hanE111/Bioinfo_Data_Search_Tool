@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "geo-datasets": {
+      "command": "node",
+      "args": [
+        "/Users/haeunyoo/BHI/Bioinfo_Data_Search_Tool/mcp-server/index.js"
+      ]
+    }
+  }
+}

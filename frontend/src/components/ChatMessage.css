@@ -1,0 +1,74 @@
+/* Dataset cards - clickable */
+.dataset-card.clickable {
+  cursor: pointer;
+  position: relative;
+  padding-bottom: 2.5rem;
+}
+
+.dataset-card.clickable:hover {
+  transform: translateX(6px);
+  border-left-width: 4px;
+}
+
+.create-thread-btn {
+  position: absolute;
+  bottom: 0.5rem;
+  right: 0.75rem;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 0.4rem 0.75rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s;
+  opacity: 0;
+}
+
+.dataset-card.clickable:hover .create-thread-btn {
+  opacity: 1;
+}
+
+.create-thread-btn:hover {
+  background: var(--primary-hover);
+  transform: translateX(2px);
+}
+
+/* Additional message-specific styles */
+.message-content a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.message-content a:hover {
+  border-bottom-color: var(--primary-color);
+}
+
+.message-content blockquote {
+  border-left: 3px solid var(--primary-color);
+  padding-left: 1rem;
+  margin: 0.5rem 0;
+  color: var(--text-secondary);
+  font-style: italic;
+}
+
+.message-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.5rem 0;
+}
+
+.message-content th,
+.message-content td {
+  padding: 0.5rem;
+  border: 1px solid var(--border);
+  text-align: left;
+}
+
+.message-content th {
+  background: var(--surface);
+  font-weight: 600;
+}

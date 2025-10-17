@@ -7,7 +7,7 @@ const NCBI_BASE_URL = 'https://eutils.ncbi.nlm.nih.gov/entrez/eutils';
 
 // NCBI API Key (optional but recommended for better rate limits: 10 req/s vs 3 req/s)
 // Set via environment variable or hardcode your key here
-const NCBI_API_KEY = process.env.NCBI_API_KEY || 'fabb197bb29a646b11c3ece73df996175e08';
+const NCBI_API_KEY = process.env.NCBI_API_KEY || 'yourapikeyhere';
 
 class GeoClient {
   constructor() {
