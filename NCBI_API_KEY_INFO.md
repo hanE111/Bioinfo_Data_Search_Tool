@@ -1,8 +1,8 @@
 # NCBI API Key Information
 
-## ✅ Your API Key is Now Integrated!
+## ✅ NCBI API Key is Now Integrated!
 
-Your NCBI API key `fabb197bb29a646b11c3ece73df996175e08` has been added to the code and will be used automatically.
+The NCBI API key `yourapikeyhere` will be added to the code and will be used automatically.
 
 ## What This Means
 
